@@ -9,15 +9,11 @@ The notebook follows the standard function-calling workflow:
 3. User executes the function
 4. Model generates the final response
 
----
-
 ## Installation
 
 ```bash
 pip install pandas mistralai
 ```
-
----
 
 ## Defined Functions
 
@@ -35,8 +31,6 @@ def dual_add(a: int, b: int, c: int, d: int):
 ```
 
 Each function is described using a JSON schema so the Mistral model can understand its name, description, parameters, and required inputs.
-
----
 
 ## Key Concept
 
